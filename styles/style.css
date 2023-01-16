@@ -84,7 +84,7 @@
     gap: 75px;
     justify-content: center;
     align-items: center;
-    margin-left: 250px;
+    margin-left: 400px;
     margin-right: 200px;
 }
 
@@ -94,6 +94,9 @@
     grid-template-columns: repeat(2, 1fr);
     row-gap: 15px;
     column-gap: 15px;
+}
+.team-detail{
+    margin-right: 150px;
 }
 
 .team-title {
@@ -127,10 +130,13 @@
 
 /* Features styles */
 .features {
-    margin: 100px 200px 0 200px;
+    margin: 100px 200px 0 250px;
     display: flex;
     gap: 65px;
 
+}
+.feature-detail{
+    margin-left: 150px;
 }
 
 .feature-title {
@@ -195,30 +201,33 @@
 .text-block {
     position: absolute;
     left: 0px;
-    bottom: 53px;
+    bottom: 5px;
 }
 
 /* Achievement section styles */
 .achievement-container{
-    margin: 100px 200px 50px 230px;
+    margin: 100px 200px 50px 330px;
 }
 .achievement-title{
     color: #131313;
     font-weight: 700;
 font-size: 25px;
 margin-bottom: 20px;
+text-align: center;
 }
 .achievement-detail{
+    text-align: center;
     color: #727272;
     font-weight: 400;
 font-size: 16px;
 width: 450px;
 margin-bottom: 50px;
+margin-left: 380px;
 }
 .info-box{
     display: flex;
     justify-content: space-between;
-    margin: 0 40px 75px 40px;
+    margin: 0 40px 75px 80px;
 }
 .box {
     width: 130px;
@@ -255,7 +264,7 @@ margin-bottom: 50px;
     text-align: left;
     
     background-color: #131313;
-    margin-left: 450px;
+    margin-left: 650px;
   }
   .contact-item{
     padding-top: 70px;
@@ -317,3 +326,6 @@ margin-right: 550px;
 font-size: 16px;
 padding-bottom: 150px;
 }
+
+
+
